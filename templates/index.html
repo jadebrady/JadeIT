@@ -7,7 +7,7 @@
     <title>JadeIT</title>
 </head>
 <body>
-    <div>
+    <div class='main'>
         <h1>
             JBrady Software Developer
         </h1>
@@ -17,9 +17,6 @@
         </h3>
         <img src="{{ url_for('static', filename='jade.png') }}" alt="Picture of Jade" width="200">
     </div>
-    
-
-
     <div class="links">
         <h3>
             My Links:
@@ -27,6 +24,21 @@
         <a target=_blank href="https://www.github.com/jadebrady">Github</a>
         <a target=_blank href="https://www.linkedin.com/in/jade-brady/">LinkedIn</a>
     </div>
+
+    <div class="projects">
+        <h3>
+            My Projects:
+        </h3>
+        <img src="{{ url_for('static', filename='c#.png') }}" alt="c# example" width="50">
+        <a target=_blank href="https://github.com/jadebrady/C-.NET-Restaurant-Management-System">C# Restaurant Management System</a>
+        <img src="{{ url_for('static', filename='Top3.png') }}" alt="python example" width="50">
+        <a href="" >Python Top 3 </a>
+    
+    </div>
+    
+
+
+    
 
 </body>
 </html>

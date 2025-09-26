@@ -28,11 +28,22 @@ a:hover {
     color: deepskyblue;
 }
 
-img {
+.main img  {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
     border-radius: 50%;
     max-width: 200px;
+}
+
+.projects img {
+    width: 400px;
+    margin: 0;
+    padding: 15px;
+}
+.projects a {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
 }
