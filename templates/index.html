@@ -3,11 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="{{ url_for('static', filename='styles.css') }}">
     <title>JadeIT</title>
 </head>
 <body>
-    <h1>JadeIT - Jade Brady Software Developer</h1>
-    <h3>Here I play around with new (to me) modules and packages, learning and having fun as I go</h3>
-    <a target=_blank href="https://www.github.com/jadebrady">Github</a><a target=_blank href="https://www.linkedin.com/in/jade-brady/">LinkedIn</a>
+    <div>
+        <h1>
+            JBrady Software Developer
+        </h1>
+        <h3>
+            Here I play around with new (to me) modules and packages, 
+            learning and having fun as I go
+        </h3>
+        <img src="{{ url_for('static', filename='jade.png') }}" alt="Picture of Jade" width="200">
+    </div>
+    
+
+
+    <div class="links">
+        <h3>
+            My Links:
+        </h3>
+        <a target=_blank href="https://www.github.com/jadebrady">Github</a>
+        <a target=_blank href="https://www.linkedin.com/in/jade-brady/">LinkedIn</a>
+    </div>
+
 </body>
 </html>
